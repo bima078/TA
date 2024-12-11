@@ -33,8 +33,6 @@ with st.sidebar:
 
 # Diabetes Prediction Page
 if selected == 'Diabetes Prediction':
-    tab1, tab2 = st.tabs(["**Prediksi Satuan**", "**Prediksi Tabel**"])
-    with tab1:
       # page title
       st.title('Diabetes Prediction using SVM Method')
   
@@ -86,8 +84,6 @@ if selected == 'Diabetes Prediction':
               diab_diagnosis = 'The person is not diabetic'
   
       st.success(diab_diagnosis)
-    with tab2:  
-
 
 # Heart Disease Prediction Page
 if selected == 'Heart Disease Prediction':
